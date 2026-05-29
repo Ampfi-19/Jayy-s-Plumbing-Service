@@ -23,6 +23,12 @@ Student No. ST10522222
  |____Contact.html          #Contact
  |____Enquiry.html          #Enquires
 
+
+ |____css
+   |__style.css            # External CSS stylesheet
+
+|__ README.md              # Project documentation
+
  Functionality
  ## Navigation##
  - Plumbing Services from the website
@@ -41,21 +47,28 @@ Student No. ST10522222
  4. Navigate the site using the homepage to access different pages.
 
 
-TIMELINE AND MILESTONE 
-WEEK 1: Planning and Designing
-Milestone: Project indetfications and understanding requirements.
-Week 2 : HTML Development Structure
-Milestone: Web Pages are linked and created 
-Week 3 : Content and Layout on the website
-Milestone: Content on the website is complete
-Week 4 : Website Project Submission
-Milestone : Project has been submitted
+Pages Description
 
-Sitemap
+- **Home( index.html)**( brief introduction,Service Preview).
+- **About us:** ( History, Mission, Vision).
+- **Services** ( Intstall pipes,Fixing Drainange leaks).
+- **Contact** ( email,phone,addresses).
+- **Enquires** ( enquiry form,name,email,phone).
 
-|
-|Homepage( brief introduction,Service Preview)
-About Us ( History, Mission, Vision)
-Services ( Intstall pipes,Fixing Drainange leaks)
-Contact ( email,phone,addresses)
-Enquires ( enquiry form,name,email,phone)
+Techologies Used
+- **HTML5** - for content structure.
+- **CSS3** - for styling and responsivness.
+
+Author
+- **Name:** Mulima Ampfarisaho
+- **Role:** Website Developer (Student)
+- **Year:** 2026
+
+## Enquiry Form Project
+A modern and responsive enquiry form built with HTML, CSS. Ideal for website that need to collect user information or feedback.
+
+## Installation
+1. Clone or download the respitory. 
+2. Open **index.html** in your browser to view the form.
+3. Add your server-side script to **submit_form** to handle form submissions.
+
