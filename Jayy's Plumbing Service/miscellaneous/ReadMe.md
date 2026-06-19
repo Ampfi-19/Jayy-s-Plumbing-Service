@@ -1,11 +1,9 @@
-PROJECT STRUCTRE
-Jayy's Plumbing Service 
+# Jayy's Plumbing Services Website
 
-Student Name: Ampfarisaho Mulima
-Student No. ST10522222
- 
- PROJECT OVERVIEW
- A website for Jayy's Plumbing Services that focuses on making it accessible for customers to interact with the services's rendered at Jayy's Plumbing Services.The website ca make it easier for customers to know about the services,contact, and make enquires about the services which makes it more user friendly.
+## Project Overview
+
+Jayy's Plumbing Services is a responsive multi-page business website developed using HTML5, CSS3, and JavaScript. The website promotes plumbing services, provides company information, allows customers to submit enquiries, and includes interactive features to improve user experience.
+
 
  Website Goals 
  To make the user friendly towards customers so its easy to access. And, also having the website maintained so it doesn't crash as many users may use it at the same time.
@@ -26,6 +24,15 @@ Student No. ST10522222
 
  |____css
    |__style.css            # External CSS stylesheet
+ |____js
+  |____script.js
+  |
+  |
+  |____assets
+  |
+  |___asserts1.jpg
+  |___asserts2.jpg
+  |___asserts3.jpg
 
 |__ README.md              # Project documentation
 
@@ -39,6 +46,62 @@ Student No. ST10522222
 - Google Maps needed for business locations
  ## Accessibility#
  - Alt text for images and semantic HTML elements used.
+---
+
+## Features Implemented
+
+### HTML5 Features
+- Semantic page structure
+- Multi-page website
+- Navigation menu
+- Contact page
+- About page
+- Services page
+- Enquiry form
+- Internal linking
+
+### CSS Features
+- Responsive design
+- Mobile-friendly layout
+- Image responsiveness
+- Animations and transitions
+- Service card styling
+- Navigation styling
+- Gallery styling
+
+### JavaScript Features
+- Dynamic content loading
+- Service search functionality
+- Accordion component
+- Lightbox image gallery
+- Client-side form validation
+- Error handling
+- AJAX form submission
+- DOM manipulation
+
+### SEO Optimisation
+- Meta descriptions
+- Meta keywords
+- Structured heading hierarchy
+- Alt text for images
+- Internal linking
+- Mobile optimisation
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- AJAX
+- Google Maps Embed API
+
+---
+
+## Folder Structure
+
+
 
  How to Run the Website
  1. Dowload the Project Files

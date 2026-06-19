@@ -3,12 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Contact | Jayy's Plumbing Services</title>
+    </head>
+        <meta name="description" content="Professional plumbing services provided by Jayy's Plumbing Services">
+        <meta name="keywords" content="plumbing, plumbing services, plumbing repairs, plumbing installations, plumbing maintenance">
+        <meta name="author" content="Jayy's Plumbing Services">
         <link rel = "stylesheet" href="https : //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="../css/style.css">
 
 
     </head>
     <body>
+    
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -26,10 +31,18 @@
             <li>Address: 93 Dorp Street, Polokwane</li>
             <li>Address: 150 Market Street, Johannesburg</li>
         </ul>
+        <h3> Find Us </h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.1234567890123!2d28.1234567890123!3d-25.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a2b3c4d5e6f7g8h9i0j%3A0x1234567890123456!2sJayy%27s%20Plumbing%20Services!5e0!3m2!1sen!2sza!4v1234567890123
+        " width="100" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"> 
+       </iframe>
 
 
-        <h3>Contact Form</h3>
-        <form method="post" action="#">
+        <form id="contactForm">
+            <p id="errorMessage"></p>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <br><br>
@@ -45,7 +58,9 @@
             <input type="submit" value="Submit Enquiry">
         </form>
         <footer>
+            
             <p>Contact: 083 414 4698 / JayyNeo@gmail.com</p>
         </footer>
+        <script src="assets/js/animations.js"></script>
     </body>
 </html>

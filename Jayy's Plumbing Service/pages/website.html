@@ -3,10 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>Jayy's Plumbing Services</title>
+        <meta name="description" content="Professional plumbing services provided by Jayy's Plumbing Services">
+        <meta name="keywords" content="plumbing, plumbing services, plumbing repairs, plumbing installations, plumbing maintenance">
+        <meta name="author" content="Jayy's Plumbing Services">
         <link rel = "stylesheet" href="https : //cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+    
+         <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiries</a></li>
+            </ul>
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
@@ -16,11 +28,44 @@
                 <li><a href="enquiry.html">Enquiries</a></li>
             </ul>
         </nav>
+        <section>
+            <h2>Quick Links</h2>
+            <a href="services.html"
+            <button> View our Services</button>
+        </a>
+        <br>
+        <a href="contact.html"
+            <button> Contact Us</button>
+        </a>    
+
+        </section>
         <h1>Jayy's Plumbing Services</h1>
         <h2>No Plumbing Problem is too hard to fix with us.</h2>
-        <p>Our core plumbing services are designed to give customers satisfaction.</p>
-        <img src="../asserts/img.adv.jpeg" alt="Jayy's Plumbing Services advertisement">
-        
+        <p>Our core plumbing services are designed to give customers satisfaction.</p><picture>
+    <source
+        media="(max-width: 480px)"
+        srcset="assets/img-small.jpeg">
+
+    <source
+        media="(max-width: 768px)"
+        srcset="assets/img-medium.jpeg">
+
+    <img
+        src="assets/img-large.jpeg"
+        alt="Jayy's Plumbing Services advertisement"
+        loading="lazy">
+</picture>
+
+        <h2> Our Work </h2>
+        <div class="gallery">
+            <img src="../asserts/img1.jpeg" alt="Plumbing work 1">
+            <img src="../asserts/img2.jpeg" alt="Plumbing work 2">
+            <img src="../asserts/img3.jpeg" alt="Plumbing work 3">
+        </div>
+        <div id="lightbox">
+            <img id="lightbox-img"
+        </div>
+
         <h3>OUR SERVICES INCLUDE:</h3>
         <ul>
             <li>Installing Pipes</li>
@@ -48,5 +93,7 @@
         <a href="services.html">s
             <button>BOOK OUR SERVICES NOW!</button>
         </a>
+        <script src="assets/js/animations.js"></script>
+        <script src="assets/js/featured.js"></script>
     </body>
 </html>
